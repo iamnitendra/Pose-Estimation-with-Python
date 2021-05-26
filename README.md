@@ -1,14 +1,13 @@
-# tf-pose-estimation
+# pose-estimation
 
 'Openpose', human pose estimation algorithm, have been implemented using Tensorflow. It also provides several variants that have some changes to the network structure for **real-time processing on the CPU or low-power embedded devices.**
 
 **You can even run this on your macbook with a descent FPS!**
 
-Original Repo(Caffe) : https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
 | CMU's Original Model</br> on Macbook Pro 15" | Mobilenet-thin </br>on Macbook Pro 15" | Mobilenet-thin</br>on Jetson TX2 |
 |:---------|:--------------------|:----------------|
-| ![cmu-model](/etcs/openpose_macbook_cmu.gif)     | ![mb-model-macbook](/etcs/openpose_macbook_mobilenet3.gif) | ![mb-model-tx2](/etcs/openpose_tx2_mobilenet3.gif) |
+| ![cmu-model]    | ![mb-model-macbook] | ![mb-model-tx2] |
 | **~0.6 FPS** | **~4.2 FPS** @ 368x368 | **~10 FPS** @ 368x368 |
 | 2.8GHz Quad-core i7 | 2.8GHz Quad-core i7 | Jetson TX2 Embedded Board | 
 
@@ -17,7 +16,6 @@ Implemented features are listed here : [features](./etcs/feature.md)
 ## Important Updates
 
 - 2019.3.12 Add new models using mobilenet-v2 architecture. See : [experiments.md](./etcs/experiments.md)
-- 2018.5.21 Post-processing part is implemented in c++. It is required compiling the part. See: https://github.com/ildoonet/tf-pose-estimation/tree/master/src/pafprocess
 - 2018.2.7 Arguments in run.py script changed. Support dynamic input size.
 
 ## Install
@@ -103,7 +101,7 @@ The image flag MUST be relative to the src folder with no "~", i.e:
 
 Then you will see the screen as below with pafmap, heatmap, result and etc.
 
-![inferent_result](./etcs/inference_result2.png)
+![inferent_result](./etcs/https://www.google.com/search?q=openpose_macbook_cmu.gif&rlz=1C1HLDY_enIN936IN936&tbm=isch&source=iu&ictx=1&fir=PBuSPHxrH9rMlM%252CE6GZl7dXdq1KzM%252C_&vet=1&usg=AI4_-kSXxnJqlYhf3LWGyNhwlvxr7ZFNJQ&sa=X&ved=2ahUKEwiEx6mqxObwAhWJ4nMBHd_gCMwQ9QF6BAgNEAE#imgrc=PBuSPHxrH9rMlM)
 
 ### Realtime Webcam
 
