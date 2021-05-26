@@ -101,7 +101,6 @@ The image flag MUST be relative to the src folder with no "~", i.e:
 
 Then you will see the screen as below with pafmap, heatmap, result and etc.
 
-![inferent_result](./etcs/https://www.google.com/search?q=openpose_macbook_cmu.gif&rlz=1C1HLDY_enIN936IN936&tbm=isch&source=iu&ictx=1&fir=PBuSPHxrH9rMlM%252CE6GZl7dXdq1KzM%252C_&vet=1&usg=AI4_-kSXxnJqlYhf3LWGyNhwlvxr7ZFNJQ&sa=X&ved=2ahUKEwiEx6mqxObwAhWJ4nMBHd_gCMwQ9QF6BAgNEAE#imgrc=PBuSPHxrH9rMlM)
 
 ### Realtime Webcam
 
@@ -136,14 +135,4 @@ import tf_pose
 coco_style = tf_pose.infer(image_path)
 ```
 
-## ROS Support
 
-See : [etcs/ros.md](./etcs/ros.md)
-
-## Training
-
-See : [etcs/training.md](./etcs/training.md)
-
-## References
-
-See : [etcs/reference.md](./etcs/reference.md)
